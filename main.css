@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "楷体";
+   
+}
+body{
+    background: #fff9ed;
+    background-image: url(./images/6.jpg) ;
+   
+    font-size: 14px;
+    margin: 0 auto;
+    background-attachment: fixed;
+    text-align: center;
+}
+a:link,a:visited{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+#logo{
+    width: 200px;
+    height: 100px;
+    background-position: left;
+}
+
+
+#header{
+    width: 100%;
+    height: 90px;
+    background:url(./images/7a205c52c1e5fc723c43c2fd792205cd.jpg) repeat-x; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 3px solid #d5d5d5;
+    text-align: center;
+    z-index: 50;
+}
+
+.nav{
+    
+    width:980px;
+    margin: 0 auto;
+    
+   
+}
+li{
+    float: left;
+}
+li a{
+    display: inline-block;
+    height: 91px;
+    width: 119px;
+   text-align: center;
+    line-height: 120px;
+}
+li a:hover{
+    /* height: 124px; */
+    /* background: url(./images/faab96813466162deccaf7be43f1ce1e.jpg)no-repeat; */
+    text-decoration: none;
+    border-bottom: 2px solid #e62b4c;
+    color: #e62b4c;
+    background-color: transparent;
+
+}
+p strong{
+    color: coral;
+    font-size: 24px;
+    text-align: left;
+}
+
+
+
+#xinxi{
+    text-indent: 2em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+p em{
+    color:blueviolet;
+}
+
+#xinxi strong{
+    font-size: 14px;
+    /* color:green; */
+    font-family: 'Courier New', Courier, monospace;
+    /* text-decoration: underline;
+     */
+}
+p a:link,p a:visited{
+    text-decoration: none;
+    color:green;
+    font-size: 20px;
+}
+p a:hover{
+    color: aqua;
+}
+.shangchao h2,.shangchao p{
+    text-indent: 2em;
+}
+.shangchao h2{
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+  
+}
+.shangchao p{
+   
+    line-height: 26px;
+    font-size: 14px;
+}
+.taihou h2,.taihou p{
+    text-indent: 2em;
+}
+.taihou h2{
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+  
+}
+.taihou p{
+   
+    line-height: 26px;
+    font-size: 14px;
+}
+.nvhuang h2,.nvhuang p{
+    text-indent: 2em;
+}
+.nvhuang h2{
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+  
+}
+.nvhuang p{
+   
+    line-height: 26px;
+    font-size: 14px;
+}
+.chengjiu{
+    text-align: center;
+}
+#chengjiu strong {
+    text-align: left;
+}
+.chengjiu table,
+.chengjiu table tr {
+    text-align: center;
+}
+.pingjia{
+    text-indent: 2em;
+
+}
+
+#footer{
+    width: 100%;
+    height: 80px;
+    background: url(./images/bj2.png) repeat-x;
+   
+    color:#fff;
+    text-align: center;
+    line-height: 80px;
+}
+.btn{
+    float: right;
+}
+.btn a:link{
+    color: #fff;
+}
+
+
